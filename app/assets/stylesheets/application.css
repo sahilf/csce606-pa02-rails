@@ -13,3 +13,15 @@
  *= require_tree .
  *= require_self
  */
+
+ .sorted-asc {
+    background-color: #e0ffe0; 
+    color: #006400; 
+    font-weight: bold;
+  }
+  
+  .sorted-desc {
+    background-color: #ffe0e0; 
+    color: #8b0000; 
+    font-weight: bold;
+  }
