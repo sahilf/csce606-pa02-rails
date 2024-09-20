@@ -9,6 +9,8 @@
 #   end
 
 # Seed the RottenPotatoes DB with some movies.
+
+Movie.destroy_all
 more_movies = [
   {:title => 'My Neighbor Totoro', :rating => 'G',
     :release_date => '16-Apr-1988'},
